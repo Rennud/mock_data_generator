@@ -1,6 +1,7 @@
 import os
 
-from manager.create_data import create_mock_data, create_json_file
+from manager.create_data import create_mock_data
+from manager.create_json import create_json_file
 
 
 def main():
