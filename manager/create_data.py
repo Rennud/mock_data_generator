@@ -15,8 +15,11 @@ def create_mock_data(num_rows, num_columns):
     if num_rows < 0 or num_columns > 8 or num_columns < 0:
         print('''
             First arg num_rows must be at least 1\n,
-            Second arg num_colums must be at least 1 and maximum value is 8''')
+            Second arg num_colums must be at least 1 and maximum value is 8
+            ''')
+
         return False
+
     for _ in range(num_rows):
         person = {
             'id': get_id(),
