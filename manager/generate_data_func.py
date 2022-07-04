@@ -54,6 +54,6 @@ def get_status() -> str:
     return random.choice(['single', 'married', 'in relationship'])
 
 
-def has_dog() -> bool:
+def get_has_dog() -> str:
     """Returns a random boolean representing whether the person has a dog"""
-    return random.choice([True, False])
+    return random.choice(['yes', 'no'])

@@ -29,7 +29,7 @@ def create_mock_data(num_rows, num_columns):
             'income': get_income(),
             'status': get_status(),
             'proffesion': get_random_value('professions.csv'),
-            'dog': has_dog()
+            'has_dog': get_has_dog()
         }
         mock_data.append(dict(itertools.islice(person.items(), num_columns)))
 
